@@ -1,0 +1,149 @@
+main {
+}
+
+h2 {
+  height: 32px;
+  left: 6.32%;
+  right: 58.77%;
+  top: calc(50% - 32px / 2 - 244px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1c1c1c;
+  text-align: left;
+  /* identical to box height, or 133% */
+}
+/* first and last names */
+
+input [type="text"] focus {
+  background-color: rgb(11, 11, 126);
+  border-color: rgb(11, 11, 126);
+}
+
+#first {
+  width: 245px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+#second {
+  width: 245px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+/* for all labels */
+label {
+  height: 22px;
+  margin-bottom: 10;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+/* e-mail */
+#e-mail {
+  box-sizing: border-box;
+  height: 38px;
+  width: 500px;
+  margin: 10, 10, 10, 10;
+
+  background: #ffffff;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+p {
+  height: 18px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+
+  color: #969696;
+}
+
+#male-check {
+  font-size: 15px;
+}
+
+#female-check {
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+#final {
+  width: 116px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+.button {
+  height: 38px;
+  width: 500px;
+
+  box-sizing: border-box;
+  background: #007bff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  text-align: center;
+}
+
+select {
+  box-sizing: border-box;
+
+  margin: 10, 10, 10, 10;
+
+  background: #ffffff;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+#select {
+  height: 38px;
+  width: 245px;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+#city-text {
+  border: 1px solid blue;
+  border-radius: 6px;
+  height: 38px;
+  width: 245px;
+}
+
+#names {
+}
+
+#mail {
+  text-align: left;
+}
+
+#ending {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
