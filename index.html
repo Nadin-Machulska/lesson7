@@ -57,18 +57,24 @@
             </section>
 
             <!--male-female-->
-            <section>
-              <input type="radio" name="state" id="male-check" />
-              <label for="male">Male</label>
-              <input type="radio" name="state" id="female-check" />
-              <label for="female">Female</label>
-            </section>
+            <div class="checkbox">
+              <div class="radio">
+                <label for="male" id="male-check">Male</label>
+                <input type="radio" name="state"  />
+              
+            </div>
+              <div clas="radio">
+                <label for="female" id="female-check">Female</label>
+                <input type="radio" name="state"  />
+              
+            </div>
+          </div>
             <br /><br />
 
             <!--Country-city-->
             <div class="select-wrapper">
-              <span>
-                <p><label for="select" class="label">Country</label></p>
+              <div>
+                <label for="select" class="label">Country</label>
                 <select name="countries" id="select" class="select">
                   <option value="ukraine" selected>Ukraine</option>
                   <option value="usa">USA</option>
@@ -76,13 +82,13 @@
                   <option value="spain">Spain</option>
                   <option value="moldova">Moldova</option>
                   <option value="italy">Italy</option>
-                </select></span
-              >
+                </select>
+              </div>
 
-              <span>
-                <p><label for="city">City</label></p>
+              <div>
+                <label for="city">City</label>
                 <input type="text" name="city" id="city-text" />
-              </span>
+              </div>
             </div>
             <br /><br />
 
