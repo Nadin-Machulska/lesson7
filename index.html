@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an account</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <form action="">
+          <header>
+            <h2>Create an account</h2>
+          </header>
+
+          <main>
+            <!--First-Last name-->
+
+            <!--to make inputs inline-->
+            <div class="container">
+              <div class="part">
+                <p><label>Fisrt name</label></p>
+                <input
+                  type="first-name"
+                  id="first"
+                  minlength="3"
+                  maxlength="15"
+                />
+              </div>
+              <div class="part">
+                <p><label>Last name</label></p>
+                <input
+                  type="last-name"
+                  id="second"
+                  minlength="3"
+                  maxlength="15"
+                />
+              </div>
+            </div>
+            <!--user e-mail-->
+            <section>
+              <p id="mail">E-mail</p>
+
+              <input type="email" name="user-mail" id="e-mail" /><br />
+              <p>We'll never share your email with anyone else.</p>
+              <br /><br />
+            </section>
+
+            <!--male-female-->
+            <section>
+              <input type="radio" name="state" id="male-check" />
+              <label for="male">Male</label>
+              <input type="radio" name="state" id="female-check" />
+              <label for="female">Female</label>
+            </section>
+            <br /><br />
+
+            <!--Country-city-->
+            <div class="select-wrapper">
+              <span>
+                <p><label for="select" class="label">Country</label></p>
+                <select name="countries" id="select" class="select">
+                  <option value="ukraine" selected>Ukraine</option>
+                  <option value="usa">USA</option>
+                  <option value="germany">Germany</option>
+                  <option value="spain">Spain</option>
+                  <option value="moldova">Moldova</option>
+                  <option value="italy">Italy</option>
+                </select></span
+              >
+
+              <span>
+                <p><label for="city">City</label></p>
+                <input type="text" name="city" id="city-text" />
+              </span>
+            </div>
+            <br /><br />
+
+            <span>
+              <!--Sign up-->
+              <input type="submit" class="button" value="Sign up" />
+            </span>
+            <p id="ending">
+              By clicking the 'Sign Up' button, you confirm that you accept
+              our<br />
+              Terms of Use and Privacy Policy.
+            </p>
+            <hr />
+
+            <footer>
+              <h6 id="final">Have an account? <a href="" _blanc>Log in.</a></h6>
+            </footer>
+          </main>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
