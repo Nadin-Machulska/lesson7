@@ -1,4 +1,14 @@
-main {
+.box {
+  width: 700px;
+  height: 800px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #969696;
 }
 
 h2 {
@@ -23,21 +33,44 @@ input [type="text"] focus {
   border-color: rgb(11, 11, 126);
 }
 
-#first {
-  width: 245px;
-  height: 38px;
-  background: #ffffff;
-  border: 1px solid blue;
-  border-radius: 6px;
+.part {
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
 }
-#second {
+
+#first{
   width: 245px;
   height: 38px;
+  margin: 0 0 20px 0;
+  padding: 0;
   background: #ffffff;
   border: 1px solid blue;
   border-radius: 6px;
 }
 
+#second {
+  width: 245px;
+  height: 38px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  background: #ffffff;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+#first:focus,
+#second:focus,
+#mail:focus,
+#select:focus,
+#city-text:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
 /* for all labels */
 label {
   height: 22px;
@@ -145,5 +178,30 @@ select {
 }
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between flex-start;
+}
+
+.select-wrapper {
+  display: flex;
+  
+}
+
+label {
+  height: 18px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+
+  color: #969696;
+}
+
+footer h6 {
+  text-align: center;
 }
